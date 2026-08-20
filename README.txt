@@ -1,6 +1,6 @@
 EduAI Admin RBAC
 
-1. Create .env from .env.example and enter your local PostgreSQL password.
+1. Create .env enter your local PostgreSQL password.
 2. Make sure PostgreSQL has a database named EduAI.
 3. Install requirements:
    pip install -r requirements.txt
