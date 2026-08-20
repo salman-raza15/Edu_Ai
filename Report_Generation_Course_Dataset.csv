@@ -1,0 +1,11 @@
+Student ID,Student Name,Course Name,Course ID,Cohort,Assignment,Score,Max Score,Percentage,Pass/Fail,Evaluation Date,Technical Accuracy,Code Quality,Documentation,Overall Feedback
+STU001,Ali Khan,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,88,100,88,Pass,2026-08-18,90,86,88,Strong implementation and clear logic.
+STU002,Ayesha Malik,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,92,100,92,Pass,2026-08-18,94,91,91,Excellent technical accuracy and documentation.
+STU003,Bilal Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,76,100,76,Pass,2026-08-18,80,74,74,Good solution; documentation needs improvement.
+STU004,Sara Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,65,100,65,Pass,2026-08-18,70,63,62,Basic requirements met; improve code quality.
+STU005,Hamza Ali,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,45,100,45,Pass,2026-08-18,50,44,41,Needs stronger logic and documentation.
+STU006,Hira Noor,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,38,100,38,Fail,2026-08-18,42,35,37,Several requirements were incomplete.
+STU001,Ali Khan,Python Programming,PY101,Bootcamp-2026-A,Assignment 2,91,100,91,Pass,2026-08-19,94,89,90,Very strong improvement over the previous assignment.
+STU002,Ayesha Malik,Python Programming,PY101,Bootcamp-2026-A,Assignment 2,87,100,87,Pass,2026-08-19,90,84,87,Consistent performance with good documentation.
+STU003,Bilal Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 2,81,100,81,Pass,2026-08-19,84,79,80,Improved documentation and code organization.
+STU004,Sara Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 2,72,100,72,Pass,2026-08-19,76,70,69,Steady improvement; continue refining logic.

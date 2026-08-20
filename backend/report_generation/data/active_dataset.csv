@@ -1,0 +1,19 @@
+Student ID,Student Name,Course Name,Course ID,Cohort,Assignment,Criteria,Score,Max Marks,Percentage,Pass/Fail,Evaluation Date,Overall Feedback,Max Score
+STU001,Ali Khan,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,27,30,88.0,Pass,2026-08-18,Strong implementation,30
+STU001,Ali Khan,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,26,30,88.0,Pass,2026-08-18,Clean and readable code,30
+STU001,Ali Khan,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,35,40,88.0,Pass,2026-08-18,Good documentation,40
+STU002,Ayesha Malik,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,28,30,93.33,Pass,2026-08-18,Excellent accuracy,30
+STU002,Ayesha Malik,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,28,30,93.33,Pass,2026-08-18,Very clean implementation,30
+STU002,Ayesha Malik,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,37,40,93.33,Pass,2026-08-18,Excellent documentation,40
+STU003,Bilal Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,24,30,80.0,Pass,2026-08-18,Good technical solution,30
+STU003,Bilal Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,23,30,80.0,Pass,2026-08-18,Some code quality issues,30
+STU003,Bilal Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,33,40,80.0,Pass,2026-08-18,Documentation can improve,40
+STU004,Sara Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,21,30,70.0,Pass,2026-08-18,Basic requirements met,30
+STU004,Sara Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,21,30,70.0,Pass,2026-08-18,Needs refactoring,30
+STU004,Sara Ahmed,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,28,40,70.0,Pass,2026-08-18,Documentation needs detail,40
+STU005,Hamza Ali,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,16,30,53.33,Pass,2026-08-18,Several technical gaps,30
+STU005,Hamza Ali,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,16,30,53.33,Pass,2026-08-18,Code needs improvement,30
+STU005,Hamza Ali,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,21,40,53.33,Pass,2026-08-18,Limited documentation,40
+STU006,Hira Noor,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Technical Accuracy,12,30,40.0,Pass,2026-08-18,Incomplete solution,30
+STU006,Hira Noor,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Code Quality,13,30,40.0,Pass,2026-08-18,Needs major improvement,30
+STU006,Hira Noor,Python Programming,PY101,Bootcamp-2026-A,Assignment 1,Documentation,15,40,40.0,Pass,2026-08-18,Documentation incomplete,40

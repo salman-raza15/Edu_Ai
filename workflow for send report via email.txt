@@ -1,0 +1,92 @@
+{
+  "name": "EduAI - Send Report via Gmail",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "eduai/send-report-email",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "eduai-webhook-001",
+      "name": "Receive Report",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "eduai-send-report-email"
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.body.recipient_email }}",
+        "subject": "=EduAI Performance Report - {{ $json.body.report_id }}",
+        "emailType": "html",
+        "message": "=<p>Hello,</p><p>Please find your <strong>EduAI Performance Report</strong> attached.</p><p><strong>Report ID:</strong> {{ $json.body.report_id }}</p><p><strong>Report Type:</strong> {{ $json.body.report_type || '' }}</p><p><strong>Scope:</strong> {{ $json.body.scope || '' }} {{ $json.body.scope_id || '' }}</p><p>Regards,<br>EduAI</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "eduai-gmail-001",
+      "name": "Gmail - Send Report",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        320,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_GMAIL_CREDENTIAL_ID",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, message: 'Report email sent successfully.', recipient_email: $json.body.recipient_email, report_id: $json.body.report_id } }}",
+        "options": {}
+      },
+      "id": "eduai-response-001",
+      "name": "Respond Success",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        640,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Receive Report": {
+      "main": [
+        [
+          {
+            "node": "Gmail - Send Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail - Send Report": {
+      "main": [
+        [
+          {
+            "node": "Respond Success",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "eduai-gmail-report-v2"
+}
